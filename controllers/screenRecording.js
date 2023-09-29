@@ -1,4 +1,5 @@
 // controllers/screen-recording-controller.js
+require('../models/database')
 const ScreenRecording = require("../models/screen-recording");
 
 class ScreenRecordingController {
